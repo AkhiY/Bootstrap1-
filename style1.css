@@ -1,0 +1,81 @@
+html,body{
+    height:100%;
+}
+#nav-main {
+    position:fixed;
+    top:0px;
+    width: 100%;
+    z-index: 1;
+}
+img{
+    max-width: 100%;
+}
+.jumbotron
+{
+    background: rgba(25, 0,0, 0.5);
+    color: white;
+}
+/* cover */
+.carousel
+{
+    padding-top: 10px;
+}
+.section-content
+{
+    margin-top: 0;
+}
+body {
+    background-color: bisque;
+}
+#cover
+{
+    background: #222 url(img/2.jpg) center center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin:center;
+    padding: 10px;
+    font-family: Charmonman;
+
+}
+figure {
+    position: relative;
+    left:200px;
+    top:100px;
+    bottom:0px;
+}
+#cover-caption
+{
+    width: 100%;
+}
+p {
+    font-family: Roboto Slab;
+
+}
+form {
+    margin-left: 100px;
+}
+.x {
+    color:yellowgreen;
+}
+footer {
+    background-color: black;
+    
+    width: 1600px;
+    height: 60px;
+    bottom:0px;
+
+
+}
+#maps {
+    padding-bottom: 20px;
+}
+footer img{
+    float:right;
+    padding-top: 10px;
+    width: 250px;
+    height: 60px;
+}
